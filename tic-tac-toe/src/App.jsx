@@ -3,9 +3,6 @@ import confetti from "canvas-confetti"
 import { Square } from "./components/Square"
 import { TURNS,WINNER_COMBOS } from "./contants"
 
-
-
-
 function App() {
   const [board, setBoard] = useState(
     Array(9).fill(null)
